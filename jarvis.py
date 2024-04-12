@@ -56,6 +56,9 @@ if __name__ == "__main__":
             speak("It is a wonderful place located in india.In the city agra")
         elif "who is the father of the computer" in command:
             speak("carlees babage")
+        elif "who invented the bulb" in command:
+            speak("The bulb was invented by the thomas edison in 1878")
+        
             
         
         else:
