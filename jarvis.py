@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import pyttsx3
+import subprocess
 
 # Initialize the recognizer
 recognizer = sr.Recognizer()
@@ -62,6 +63,19 @@ if __name__ == "__main__":
             speak("Narendara modi")
         elif "who invented the C language" in command:
             speak("Dennis richae")
+        elif "open chrome" in command:
+            speak("Opening Chrome.")
+            subprocess.Popen(["C:\Program Files\Google\Chrome\Application\chrome.exe"])
+            break
+        
+        elif "open youtube" in command:
+            speak("Opening YouTube.")
+            subprocess.Popen(["C:\Program Files\Google\Chrome\Application\chrome.exe", "https://www.youtube.com"])
+            break
+        elif "open instagram" in command:
+            speak("opening Instagram")
+            subprocess.Popen(["C:\Program Files\Google\Chrome\Application\chrome.exe","https://www.instagram.com"])
+            break
         
             
         
