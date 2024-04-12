@@ -58,6 +58,10 @@ if __name__ == "__main__":
             speak("carlees babage")
         elif "who invented the bulb" in command:
             speak("The bulb was invented by the thomas edison in 1878")
+        elif "who is the prime minister of india" in command:
+            speak("Narendara modi")
+        elif "who invented the C language" in command:
+            speak("Dennis richae")
         
             
         
