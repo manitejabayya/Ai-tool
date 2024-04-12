@@ -76,7 +76,27 @@ if __name__ == "__main__":
             speak("opening Instagram")
             subprocess.Popen(["C:\Program Files\Google\Chrome\Application\chrome.exe","https://www.instagram.com"])
             break
+        elif "what is the capital of india" in command:
+            speak("the capital of india is delhi")
+        elif "who is the current prime minister of india" in command:
+            speak("narendar modi")
+        elif "who heads th rbi" in commad:
+            speak("governer")
+        elif "who created a bitcoin" in command:
+            speak("Satoshi Nakamoto")
+        elif "What is the currency of India" in command:
+            speak("rupee")
+        elif "Who is the current President of India" in command:
+            speak("Droupadi Murmu")
+        elif "When was India’s independence day" in command:
+            speak("august 15")
+        elif "Where is India’s Silicon Valley located" in command:
+            speak("Bangalore")
+        elif "India’s space agency acronym" in command:
+            speak("ISRO")
         
+
+                  
             
         
         else:
