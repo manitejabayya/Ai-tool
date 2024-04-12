@@ -1,4 +1,4 @@
-import speech_recognition as sr
+fimport speech_recognition as sr
 import pyttsx3
 import subprocess
 
@@ -110,6 +110,22 @@ if __name__ == "__main__":
             speak("Mount Everest")
         elif "What is the longest river in India" in command:
             speak("river ganga")
+        elif "What is the most populous state in India" in command:
+            speak("uttar pradesh")
+        elif "What is the least populous state in India" in command:
+            speak("sikkim")
+        elif "What is the richest state in India" in command:
+            speak("maharastra")
+        elif "What is the poorest state in India" in command:
+            speak("bihar")
+        elif "What is the most literate state in India" in command:
+            speak("kerela")
+        elif "What is the most developed state in India" in command:
+            speak("kerela")
+        elif "What is the Full form of ISRO" in command:
+            speak("Indian Space Research Organization")
+            
+
         
 
 
