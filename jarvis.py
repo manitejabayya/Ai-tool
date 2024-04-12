@@ -94,7 +94,25 @@ if __name__ == "__main__":
             speak("Bangalore")
         elif "India’s space agency acronym" in command:
             speak("ISRO")
+        elif "Premier tech institute in India" in command:
+            speak("IIT (Indian Institutes of Technology")
+        elif "What is the national bird of India" in command:
+            speak("peacock")
+        elif "What is the national flower of India" in command:
+            speak("lotus")
+        elif "what is the national language of india" in command:
+            speak("hindi")
+        elif "What is the national anthem of India" in command:
+            speak("Jana Gana Mana")
+        elif "What is the national flag of India" in command:
+            speak("tiranga")
+        elif "What is the highest mountain peak in Indian Subcontinent" in command:
+            speak("Mount Everest")
+        elif "What is the longest river in India" in command:
+            speak("river ganga")
         
+
+
 
                   
             
