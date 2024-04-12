@@ -76,54 +76,53 @@ if __name__ == "__main__":
             speak("opening Instagram")
             subprocess.Popen(["C:\Program Files\Google\Chrome\Application\chrome.exe","https://www.instagram.com"])
             break
-        elif "what is the capital of india" in command:
+        elif "capital of india" in command:
             speak("the capital of india is delhi")
-        elif "who is the current prime minister of india" in command:
+        elif "current prime minister of india" in command:
             speak("narendar modi")
-        elif "who heads th rbi" in commad:
+        elif "head of rbi" in commad:
             speak("governer")
         elif "who created a bitcoin" in command:
             speak("Satoshi Nakamoto")
-        elif "What is the currency of India" in command:
+        elif "currency of India" in command:
             speak("rupee")
-        elif "Who is the current President of India" in command:
+        elif "current President of India" in command:
             speak("Droupadi Murmu")
         elif "When was India’s independence day" in command:
             speak("august 15")
-        elif "Where is India’s Silicon Valley located" in command:
+        elif "India’s Silicon Valley located" in command:
             speak("Bangalore")
         elif "India’s space agency acronym" in command:
             speak("ISRO")
         elif "Premier tech institute in India" in command:
             speak("IIT (Indian Institutes of Technology")
-        elif "What is the national bird of India" in command:
+        elif "national bird of India" in command:
             speak("peacock")
-        elif "What is the national flower of India" in command:
+        elif "national flower of India" in command:
             speak("lotus")
-        elif "what is the national language of india" in command:
+        elif "national language of india" in command:
             speak("hindi")
-        elif "What is the national anthem of India" in command:
+        elif "national anthem of India" in command:
             speak("Jana Gana Mana")
-        elif "What is the national flag of India" in command:
+        elif "national flag of India" in command:
             speak("tiranga")
-        elif "What is the highest mountain peak in Indian Subcontinent" in command:
+        elif "highest mountain peak in Indian Subcontinent" in command:
             speak("Mount Everest")
-        elif "What is the longest river in India" in command:
+        elif "longest river in India" in command:
             speak("river ganga")
-        elif "What is the most populous state in India" in command:
-            speak("uttar pradesh")
-        elif "What is the least populous state in India" in command:
+        elif "least population state in India" in command:
             speak("sikkim")
-        elif "What is the richest state in India" in command:
+        elif "richest state in India" in command:
             speak("maharastra")
-        elif "What is the poorest state in India" in command:
+        elif "poorest state in India" in command:
             speak("bihar")
-        elif "What is the most literate state in India" in command:
+        elif "most literate state in India" in command:
             speak("kerela")
-        elif "What is the most developed state in India" in command:
+        elif "most developed state in India" in command:
             speak("kerela")
-        elif "What is the Full form of ISRO" in command:
+        elif "Full form of ISRO" in command: 
             speak("Indian Space Research Organization")
+        elif ""
             
 
         
